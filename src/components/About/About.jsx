@@ -16,8 +16,8 @@ const About = () => {
         </div>
         <div className="about__content">
           <div className="about__cards">
-            <article className="about_card">
-              <BiUserCircle />
+            <article className="about__card">
+              <BiUserCircle className="about__icon" />
               <h5>Full Stack Web Developer</h5>
             </article>
           </div>

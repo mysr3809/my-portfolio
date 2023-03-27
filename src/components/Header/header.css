@@ -61,7 +61,7 @@ height: 70rem;
 }
 @media screen and (max-width: 600px) {
 header{
-height: 100rem;
+height: 60rem;
 }
 .headers__socials,.scroll__down{
   display: none;
