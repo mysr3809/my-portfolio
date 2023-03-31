@@ -1,9 +1,9 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/portfolio1.jpg';
-import IMG2 from '../../assets/portfolio2.jpg';
-import IMG3 from '../../assets/portfolio3.jpg';
-import IMG4 from '../../assets/portfolio4.jpg';
+import IMG1 from '../../assets/port1.png';
+import IMG2 from '../../assets/port2.png';
+import IMG3 from '../../assets/port3.png';
+import IMG4 from '../../assets/port4.png';
 const Portfolio = () => {
   return (
     <section id="portfolio">
@@ -16,10 +16,20 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
-            <a href="" className="btn">
+            <a
+              href="https://github.com/mysr3809/HYF-Module-HTMLCSSGIT/tree/main/week2/WEBSITE-clone"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
               GitHub
             </a>
-            <a href="" className="btn btn-primary">
+            <a
+              href="https://mysr3809.github.io/HYF-Module-HTMLCSSGIT/week2/WEBSITE-clone/"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
               Live Demo
             </a>
           </div>
@@ -30,10 +40,15 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
-            <a href="" className="btn">
+            <a href="" className="btn" target="_blank" rel="noreferrer">
               GitHub
             </a>
-            <a href="" className="btn btn-primary">
+            <a
+              href=""
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
               Live Demo
             </a>
           </div>
@@ -44,10 +59,15 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
-            <a href="" className="btn">
+            <a href="" className="btn" target="_blank" rel="noreferrer">
               GitHub
             </a>
-            <a href="" className="btn btn-primary">
+            <a
+              href=""
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
               Live Demo
             </a>
           </div>
@@ -58,10 +78,15 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
-            <a href="" className="btn">
+            <a href="" className="btn" target="_blank" rel="noreferrer">
               GitHub
             </a>
-            <a href="" className="btn btn-primary">
+            <a
+              href=""
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
               Live Demo
             </a>
           </div>

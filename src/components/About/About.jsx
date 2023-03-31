@@ -97,7 +97,7 @@ const About = () => {
               main character is to always be smiling, energetic and positive.
               Working on a project with pleasure, solving problems and
               presenting different perspectives is my biggest fun. It's time to
-              combine what I've learned with my past experiences
+              combine what I've learned with my past experiences.
             </p>
             <a href="#contact" className="btn btn-primary">
               Contact
