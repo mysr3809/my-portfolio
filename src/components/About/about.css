@@ -2,13 +2,12 @@
   display: grid;
   grid-template-columns: 35% 50%;
   gap: 15%;
+  margin-top: 10rem !important;
 }
 
 .about__me{
   width: 100%;
-  /* aspect-ratio: 1/1; */
   border-radius: 2rem;
-  background: linear-gradient(45deg,transparent,var(--color-primary),transparent);
   display: grid;
   place-items: center;
 }
@@ -41,7 +40,7 @@
 .about__icon{
   color: var(--color-primary);
   font-size: 1.4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem
 }
 .about__card h5{
   font-size: 0.95rem;
@@ -50,6 +49,33 @@
 .about__content p{
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
+  text-align: justify;
+}
+
+.btn-container{
+  position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    margin-bottom: 2rem;
+}
+.btn-container button{
+  margin:0 1rem;
+}
+
+.personal-img{
+  width: 140%;
+}
+
+.skill{
+  display: flex;
+}
+.skill .experience__details-icon{
+  margin-right: 1rem;
+}
+
+.container-skills{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
 }
 
 @media screen and (max-width: 1024px) {
@@ -75,5 +101,8 @@
 }
 .about__content p{
   margin: 1.5rem 0;
+}
+.btn-container{
+  display: flex;
 }
   }
