@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './about.css';
-import my2 from '../../assets/my2.png';
 import MY3 from '../../assets/MY3.jpg';
 import my4 from '../../assets/my4.PNG';
 import { BiUserCircle } from 'react-icons/bi';

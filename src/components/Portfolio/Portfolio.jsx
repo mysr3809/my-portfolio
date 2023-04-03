@@ -14,7 +14,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Uber Website Clone</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/mysr3809/HYF-Module-HTMLCSSGIT/tree/main/week2/WEBSITE-clone"
@@ -38,13 +38,18 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>How Much Do You Know About Space, Let's Check!</h3>
           <div className="portfolio__item-cta">
-            <a href="" className="btn" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/mysr3809/HYF-Module-HTMLCSSGIT/tree/main/week2/WEBSITE-clone"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
               GitHub
             </a>
             <a
-              href=""
+              href="https://mysr3809.github.io/quizApp/index.html"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
@@ -57,13 +62,18 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Jorie's kitchen for delicious recipes</h3>
           <div className="portfolio__item-cta">
-            <a href="" className="btn" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/mysr3809/quizApp"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
               GitHub
             </a>
             <a
-              href=""
+              href="https://mysr3809.github.io/food-recipe-API/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
@@ -76,13 +86,18 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG4} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Don't Think Too Much, TRAVEL2GETHER!</h3>
           <div className="portfolio__item-cta">
-            <a href="" className="btn" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/mysr3809/MERN-PROJECT-TRAVEL2GETHER"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
               GitHub
             </a>
             <a
-              href=""
+              href="https://c40-team-monday.herokuapp.com/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
