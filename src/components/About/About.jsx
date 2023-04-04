@@ -9,14 +9,17 @@ const About = () => {
   const [personal, setPersonal] = useState(false);
 
   const handleClick = () => {
-    personal === false ? setPersonal(true) : setPersonal(false);
+    setPersonal(true);
+  };
+  const handleClickTrue = () => {
+    setPersonal(false);
   };
   return (
     <section id="about">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
       <div className="btn-container">
-        <button className="btn btn-primary" onClick={handleClick}>
+        <button className="btn btn-primary" onClick={handleClickTrue}>
           Tecnical
         </button>
         <button className="btn btn-primary" onClick={handleClick}>
