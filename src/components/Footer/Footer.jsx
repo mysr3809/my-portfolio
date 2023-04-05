@@ -29,10 +29,14 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.linkedin.com/in/mustafaysr/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiFillLinkedin />
         </a>
-        <a href="https://github.com" target="_blank" rel="noreferrer">
+        <a href="https://github.com/mysr3809" target="_blank" rel="noreferrer">
           <AiFillGithub />
         </a>
       </div>
