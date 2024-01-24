@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import './about.css';
-import MY3 from '../../assets/MY3.jpg';
-import my4 from '../../assets/my4.PNG';
-import { BiUserCircle } from 'react-icons/bi';
-import { BsPatchCheckFill } from 'react-icons/bs';
+import React, { useState } from "react";
+import "./about.css";
+import MY3 from "../../assets/MY3.jpg";
+import my4 from "../../assets/my4.PNG";
+import { BiUserCircle } from "react-icons/bi";
+import { BsPatchCheckFill } from "react-icons/bs";
 
 const About = () => {
   const [personal, setPersonal] = useState(false);
@@ -41,13 +41,12 @@ const About = () => {
               </article>
             </div>
             <p>
-              After studied in the Turkish National Police Academy and later
-              worked as a lawyer, I am finally following my dream and dedicating
-              myself to IT. My biggest goal is to combine the discipline with
-              effective using of time, teamwork and the problem-solving
-              experiences I gained from my past professions. My passions are to
-              work with care, constantly improve myself, ask, learn and help
-              others.
+              Dynamic Full Stack Developer with a diverse professional
+              background. I bring a unique blend of discipline, time management,
+              teamwork, and problem-solving skills from my previous careers to
+              my current role. My primary focus is to continually enhance my
+              skills and contribute to a collaborative and friendly work
+              environment.
             </p>
             <a href="#contact" className="btn btn-primary">
               Contact

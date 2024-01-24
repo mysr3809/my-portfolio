@@ -1,15 +1,41 @@
-import React from 'react';
-import './portfolio.css';
-import IMG1 from '../../assets/port1.png';
-import IMG2 from '../../assets/port2.png';
-import IMG3 from '../../assets/port3.png';
-import IMG4 from '../../assets/port4.png';
+import React from "react";
+import "./portfolio.css";
+import IMG1 from "../../assets/port1.png";
+import IMG2 from "../../assets/port2.png";
+import IMG3 from "../../assets/port3.png";
+import IMG4 from "../../assets/port4.png";
+import IMG5 from "../../assets/port5.png";
+
 const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG5} alt="" />
+          </div>
+          <h3>Find Your Dream House!</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/mysr3809/mern-real-estate"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://dream-state.onrender.com/"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG4} alt="" />
